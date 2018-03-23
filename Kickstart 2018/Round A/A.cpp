@@ -1,14 +1,12 @@
-#include <bits/stdc++.h>
+#include <../../../stdc++.h>
 #define _ ios_base::sync_with_stdio(0);cin.tie(0);
 #define repeat(i, n) for (int i = 0; (i) < (n); ++(i))
 using namespace std;
 
-inline bool isOdd(int i) { return i % 2 == 1; }
-
 long solve(string N) {
 	repeat(i, N.length()) {
 		int digit = N[i] - '0';
-		if(isOdd(digit)) {
+		if(digit & 1) {
 			string lower = to_string(digit-1) + string(N.length()-i-1, '8');
 			if(digit == 9) {
 				return stol(N.substr(i))-stol(lower);

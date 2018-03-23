@@ -1,9 +1,7 @@
-#include <bits/stdc++.h>
+#include <../../../stdc++.h>
 #define _ ios_base::sync_with_stdio(0);cin.tie(0);
 #define repeat(i, n) for (int i = 0; (i) < (n); ++(i))
 using namespace std;
-
-inline bool isOdd(int i) { return i % 2 == 1; }
 
 double solve(int N, int K, vector<double> V) {
 	sort(V.begin(), V.end());
