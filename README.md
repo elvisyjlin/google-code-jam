@@ -5,32 +5,33 @@ My solutions to [Google Code Jam](https://code.google.com/codejam)
 
 ## 2018
 
-
 * [Round A](https://codejam.withgoogle.com/codejam/contest/9234486/dashboard)
 
 
 ## Tips
 
 
+### Templates for Competative Programming
+
+Some useful templates for competative programming: see [here](https://github.com/elvisyjlin/google-code-jam/blob/master/2018/Templates).
+
+
 ### To Run Your Code in One Line
 
-On Linux
+On Linux or macOS
 
 ```bash
 python3 A.py < A-sample.in > A-sample.out
-g++ A.cpp && ./a < A-sample.in > A-sample.out
+g++ A.cpp -std=c++11 && ./a < A-sample.in > A-sample.out
 ```
 
 On Windows
 
 ```bash
 python3 A.py < A-sample.in > A-sample.out
-g++ A.cpp && a < A-sample.in > A-sample.out
+g++ A.cpp -std=c++11 && a < A-sample.in > A-sample.out
 ```
 
-On macOS
-
-```bash
-python3 A.py < A-sample.in > A-sample.out
-g++-4.9 A.cpp && ./a < A-sample.in > A-sample.out
-```
+If you're system doesn't have `<bits/stdc++.h>` (e.g. macOS), you can download one 
+[here](https://gist.github.com/elvisyjlin/06b8125d81dc213a2c37e5cdebc18bf3). 
+Then include it as `#include "[YOUR PATH]/stdc++.h"` at the beginning of your code.
