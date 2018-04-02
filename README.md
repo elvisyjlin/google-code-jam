@@ -1,10 +1,16 @@
 # Google Code Jam
 
 My solutions to [Google Code Jam](https://code.google.com/codejam)  
-The [problems](https://code.google.com/codejam/past-contests) are mainly solved with *Python* and *C++*.
+Mainly solved the [problems](https://code.google.com/codejam/past-contests) with *Python* and *C++*.
 
 
 ## Contents
+
+
+### Code Jam
+
+* 2018
+   * [Practice Round](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard) - Solved A
 
 
 ### Kickstart
