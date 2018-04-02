@@ -10,7 +10,7 @@ The [problems](https://code.google.com/codejam/past-contests) are mainly solved 
 ### Kickstart
 
 * 2017
-   * [Practice Round](https://code.google.com/codejam/contest/6304486/dashboard) - Solved A/B(s)/C
+   * [Practice Round](https://code.google.com/codejam/contest/6304486/dashboard) - Solved A/B/C
 
 * 2018
    * [Practice Round](https://code.google.com/codejam/contest/4374486/dashboard) - Solved A/B/C/D
