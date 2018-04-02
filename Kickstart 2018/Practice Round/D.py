@@ -41,7 +41,7 @@ def solve_better():
             add = ary[1]
             ttl = 0
             while r <= n:
-                if get_sum(l, r) < max_val:
+                if l > r or get_sum(l, r) < max_val:
                     cnt += r - l + 1
                     ttl += add
                     r += 1
@@ -49,9 +49,6 @@ def solve_better():
                 else:
                     add -= get_sum(l, r)
                     l += 1
-                    if l > r:
-                        r += 1
-                        add = ary[r]
             if cnt >= idx:
                 upper = max_val - 1
             else:

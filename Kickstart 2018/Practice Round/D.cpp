@@ -25,7 +25,7 @@ LLI get_sum_at(LLI idx, int n) {
         LLI add = ary[1];
         LLI total = 0;
         while(r <= n) {
-            if(get_sum(l, r) < max_val) {
+            if(l > r || get_sum(l, r) < max_val) {
                 cnt += r - l + 1;
                 total += add;
                 r++;
@@ -33,10 +33,6 @@ LLI get_sum_at(LLI idx, int n) {
             } else {
                 add -= get_sum(l, r);
                 l++;
-                if(l > r) {
-                    r++;
-                    add = ary[r];
-                }
             }
         }
         if(cnt > idx) {
