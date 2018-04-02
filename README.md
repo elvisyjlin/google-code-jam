@@ -9,8 +9,11 @@ The [problems](https://code.google.com/codejam/past-contests) are mainly solved 
 
 ### Kickstart
 
+* 2017
+   * [Practice Round](https://code.google.com/codejam/contest/6304486/dashboard) - Solved A/B(s)/C
+
 * 2018
-   * [Practice Round](https://codejam.withgoogle.com/codejam/contest/4374486/dashboard) - Solved A/B/C/D(s)
+   * [Practice Round](https://code.google.com/codejam/contest/4374486/dashboard) - Solved A/B/C/D
    * [Round A](https://codejam.withgoogle.com/codejam/contest/9234486/dashboard) - Solved A/B/C
 
 
@@ -19,7 +22,7 @@ The [problems](https://code.google.com/codejam/past-contests) are mainly solved 
 
 ### Templates for Competative Programming
 
-Some useful templates for competative programming: see [here](https://github.com/elvisyjlin/google-code-jam/blob/master/2018/Templates).
+Some useful templates for competative programming: see [here](https://github.com/elvisyjlin/google-code-jam/tree/master/Templates).
 
 
 ### To Run Your Code in One Line
