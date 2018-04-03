@@ -17,10 +17,11 @@ Mainly solved the [problems](https://code.google.com/codejam/past-contests) with
 
 * 2017
    * [Practice Round](https://code.google.com/codejam/contest/6304486/dashboard) - Solved A/B/C
+   * [Round B](https://code.google.com/codejam/contest/11304486/dashboard) - Solved A
 
 * 2018
    * [Practice Round](https://code.google.com/codejam/contest/4374486/dashboard) - Solved A/B/C/D
-   * [Round A](https://codejam.withgoogle.com/codejam/contest/9234486/dashboard) - Solved A/B/C
+   * [Round A](https://code.google.com/codejam/contest/9234486/dashboard) - Solved A/B/C
 
 
 ## Tips
