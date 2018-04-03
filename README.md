@@ -18,6 +18,7 @@ Mainly solved the [problems](https://code.google.com/codejam/past-contests) with
 * 2017
    * [Practice Round](https://code.google.com/codejam/contest/6304486/dashboard) - Solved A/B/C
    * [Round B](https://code.google.com/codejam/contest/11304486/dashboard) - Solved A
+   * [Practice Round 2](https://code.google.com/codejam/contest/12254486/dashboard) - Solved A
 
 * 2018
    * [Practice Round](https://code.google.com/codejam/contest/4374486/dashboard) - Solved A/B/C/D
