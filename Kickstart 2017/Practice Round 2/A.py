@@ -7,7 +7,9 @@ def solve():
     if I//L == J//  L:
         num_blue = S[I%L:J%L+1].count('B')
     else:
-        num_blue = S[I%L:].count('B') + S[:J%L+1].count('B') + S.count('B') * (J//L-I//L-1)
+        num_blue = S[I%L:].count('B') + \
+                   S[:J%L+1].count('B') + \
+                   S.count('B') * (J//L-I//L-1)
     print(num_blue)
 
 if __name__ == '__main__':
