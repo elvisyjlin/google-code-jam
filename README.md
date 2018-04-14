@@ -12,7 +12,7 @@ Mainly solved the [problems](https://code.google.com/codejam/past-contests) with
 * 2018
    * [Practice Round](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard) - Solved A
    * [Qualification Round](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard) - Solved A/B/C/D
-   * [Round 1A](https://codejam.withgoogle.com/2018/challenges/0000000000007883/dashboard) - Solved A
+   * [Round 1A](https://codejam.withgoogle.com/2018/challenges/0000000000007883/dashboard) - Solved A/B
 
 
 ### Kickstart
