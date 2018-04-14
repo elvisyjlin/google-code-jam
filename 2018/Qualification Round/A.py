@@ -1,6 +1,38 @@
 import math
 
+def compute(P):
+    total = 0
+    damage = 1
+    for p in P:
+        if p == 'S':
+            total += damage
+        else:
+            damage = damage << 1
+    return total
+
+def find(P):
+    for i in reversed(range(1, len(P))):
+        if P[i] == 'S' and P[i-1] == 'C':
+            return i
+    return None
+
 def solve():
+    D, P = input().split()
+    D = int(D)
+    P = list(P)
+    num_hacks = 0
+    while compute(P) > D:
+        idx = find(P)
+        if idx is None:
+            return 'IMPOSSIBLE'
+        tmp = P[idx-1]
+        P[idx-1] = P[idx]
+        P[idx] = tmp
+        num_hacks += 1
+    return num_hacks
+
+
+def solve_old():
     table = {}
 
     D, P = input().split()
@@ -27,10 +59,6 @@ def solve():
         num_hack = 0
     elif D < num_shoot:
         num_hack = 'IMPOSSIBLE'
-    elif D == num_shoot:
-        num_hack = 0
-        for k, v in table.items():
-            num_hack += int(math.log2(k)) * v
     else:
         num_hack = 0
         current_damage = max_shoot_damage
@@ -49,5 +77,5 @@ def solve():
 if __name__ == '__main__':
     T = int(input())
     for t in range(T):
-        res = solve()
+        res = solve_old()
         print('Case #{}: {}'.format(t+1, res))
