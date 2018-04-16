@@ -49,7 +49,11 @@ def solve():
             break
     print('0 {} {}'.format(*rotate((0.5, 0), m)))
     print('0 {} {}'.format(*rotate((-0.5, 0), m)))
-    print('0 {} {}'.format(*rotate((-0.5, 0.5*SQRT_2), m)))
+    print('{} {} {}'.format(SQRT_2/4, *rotate((0, SQRT_2/4), m)))
+
+def solve_cst():
+    # Solve by the cube shadow thereom
+    pass
 
 if __name__ == '__main__':
     T = int(input())
