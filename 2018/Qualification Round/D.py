@@ -52,7 +52,8 @@ def solve():
     print('{} {} {}'.format(SQRT_2/4, *rotate((0, SQRT_2/4), m)))
 
 def solve_cst():
-    # Solve by the cube shadow thereom
+    # Solve by the cube shadow thereom.
+    # That is, the area on xy-plane equals to the range on z-axis.
     pass
 
 if __name__ == '__main__':
