@@ -17,6 +17,19 @@ def solve():
                         min_max[:i]+min_max[i+1:]) for i in range(len(min_max))]
             # print(res)
             return max(res)
+    def find_knapsack(cookies, p):
+        # Modify the problem into the kanpsack problem.
+        # The "left bound" is the weight of the item.
+        if p == 0:
+            return 0
+
+        c = [0] * (p + 1)
+        for cookie in cookies:
+            l, r = cookie
+            for j in reverse(range(l, p+1)):
+                c[j] = max(c[j], min(p, c[j-l] + r))
+        return c[p]
+
     def find(cookies, p):
         if p == 0:
             return 0
