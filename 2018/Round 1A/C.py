@@ -17,18 +17,6 @@ def solve():
                         min_max[:i]+min_max[i+1:]) for i in range(len(min_max))]
             # print(res)
             return max(res)
-    def find_knapsack(cookies, p):
-        # Modify the problem into the kanpsack problem.
-        # The "left bound" is the weight of the item.
-        if p == 0:
-            return 0
-
-        c = [0] * (p + 1)
-        for cookie in cookies:
-            l, r = cookie
-            for j in reverse(range(l, p+1)):
-                c[j] = max(c[j], min(p, c[j-l] + r))
-        return c[p]
 
     def find(cookies, p):
         if p == 0:
@@ -58,6 +46,19 @@ def solve():
             res = max(res, min(p, s[1]))
         return res
 
+    def find_knapsack(cookies, p):
+        # Modify the problem into the kanpsack problem.
+        # The "left bound" is the weight of the item.
+        if p == 0:
+            return 0
+
+        c = [0] * (p + 1)
+        for cookie in cookies:
+            l, r = cookie
+            for j in reversed(range(l, p+1)):
+                c[j] = max(c[j], min(p, c[j-l] + r))
+        return c[p]
+
     N, P = map(int, input().split())
     cookies = []
     p = 0
@@ -66,13 +67,15 @@ def solve():
         w, h = map(int, input().split())
         min_v = min(w, h)
         max_v = math.sqrt(w*w+h*h)
-        cookies.append((min_v, max_v))
+        # cookies.append((min_v, max_v))
+        cookies.append((min_v*2, max_v*2))
         # total_min += min_v
         # total_max += max_v
         p += 2 * (w + h)
     P_ = (P - p) / 2
     # return find_fail(P_, total_min, total_max, cookies)
-    return p + find(cookies, P_) * 2
+    # return p + find(cookies, P_) * 2
+    return p + find_knapsack(cookies, P - p)
 
 if __name__ == '__main__':
     T = int(input())
