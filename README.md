@@ -13,6 +13,7 @@ Mainly solved the [problems](https://code.google.com/codejam/past-contests) with
    * [Practice Round](https://codejam.withgoogle.com/2018/challenges/0000000000000130/dashboard) - Solved A
    * [Qualification Round](https://codejam.withgoogle.com/2018/challenges/00000000000000cb/dashboard) - Solved A/B/C/D
    * [Round 1A](https://codejam.withgoogle.com/2018/challenges/0000000000007883/dashboard) - Solved A/B/C
+   * [Round 1B](https://codejam.withgoogle.com/2018/challenges/0000000000007764/dashboard) - Solved B(s)/C(s,m)
 
 
 ### Kickstart
@@ -25,6 +26,7 @@ Mainly solved the [problems](https://code.google.com/codejam/past-contests) with
 * 2018
    * [Practice Round](https://code.google.com/codejam/contest/4374486/dashboard) - Solved A/B/C/D
    * [Round A](https://code.google.com/codejam/contest/9234486/dashboard) - Solved A/B/C
+   * [Round B](https://code.google.com/codejam/contest/10284486/dashboard) - Solved B(s)
 
 
 ## Tips
